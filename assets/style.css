@@ -85,6 +85,7 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2a5e79;
   margin-top: 0px;
+  border-radius: 5px;
 }
 
 .about-contact section {
@@ -104,19 +105,32 @@ p {
   max-width: 150px;
 }
 
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .container {
   display: flex;
   width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+  margin: 0 20px;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+  margin: 0px;
+  width: 100%;
 }
 
 .container section {
   margin-bottom: 20px;
   position: relative;
-  flex-wrap: wrap;
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
   /* padding: 50px; */
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -133,63 +147,56 @@ p {
   background-color: #2a5e79;
   float: left;
   border: black solid;
+  border-radius: 5px 0px 0px 0px;
 }
 .content-current {
-  display: flex;
+  /* display: flex; */
   position: relative;
-  width: 1000px;
+  width: 100%;
   height: 300px;
   display: inline-block;
   background-image: url("https://www.wpexplorer.com/wp-content/uploads/stockphotos-from-bigstock.jpg");
   background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.content-past {
+  height: 300px;
+  width: 47%;
+  border-radius: 5px;
+  /* margin-right: 2%; */
 }
 
 .content-past1 {
-  display: flex;
-  position: relative;
-  width: 400px;
-  height: 300px;
   background-image: url("https://media.istockphoto.com/photos/web-design-layout-sketch-drawing-software-media-www-and-graphic-picture-id827896866?k=20&m=827896866&s=612x612&w=0&h=fgD02b24wISAi1aVFzTx3capbJ_r7ElperMbRtmtLjk=");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .content-past2 {
-  position: relative;
-  display: flex;
-  width: 400px;
-  height: 300px;
-  margin: 20px;
   /* margin-left: 20px; */
   background-image: url("https://image.shutterstock.com/image-photo/website-development-layout-sketch-drawing-260nw-628335110.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-past3 {
-  position: relative;
-  display: flex;
-  width: 400px;
-  height: 300px;
   background-image: url("https://cdn.dribbble.com/users/4317427/screenshots/14512301/media/94a790a8cb7ad5edfe69ddb7e1a0a066.png?compress=1&resize=400x300");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-past4 {
-  position: relative;
-  display: flex;
-  width: 400px;
-  height: 300px;
   background-image: url("https://st4.depositphotos.com/2466369/40194/v/1600/depositphotos_401947726-stock-illustration-web-development-concept-flat-style.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-past5 {
-  position: relative;
-  display: flex;
-  width: 400px;
-  height: 300px;
   background-image: url("https://media.istockphoto.com/photos/focusing-weather-icon-on-smart-phone-screen-picture-id1130294493?k=20&m=1130294493&s=612x612&w=0&h=Rg9IKxWSGh-jozMD1uTwEodq5XVrOdf4JphIuT4iqxo=");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-past6 {
-  position: relative;
-  display: flex;
-  width: 400px;
-  height: 300px;
   background-image: url("https://www.thebalance.com/thmb/-toaF_9jvIGKE6j2AsxwtoeVQqI=/2121x1414/filters:fill(auto,1)/beststocktradingapps-767c084f5ccb44f7a974ff04d9f5264b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
