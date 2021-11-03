@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a5e79;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .portfolio {
+  color: #e07b53;
+}
+
+.header header {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.header header ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("https://miro.medium.com/max/2000/1*s9pTH7fpkN2SUCHSGG-HXQ.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h3 {
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 36px;
+  position: absolute;
+  right: 23px;
+  top: 325px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.about-contact {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2a5e79;
+  margin-top: 0px;
+}
+
+.about-contact section {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.about-contact h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-contact img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container section {
+  margin-bottom: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  /* padding: 50px; */
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+}
+
+/* .content img {
+  max-height: 200px;
+} */
+
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  background-color: #2a5e79;
+  float: left;
+  border: black solid;
+}
+.content-current {
+  display: flex;
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  display: inline-block;
+  background-image: url("https://www.wpexplorer.com/wp-content/uploads/stockphotos-from-bigstock.jpg");
+  background-repeat: no-repeat;
+}
+
+.content-past1 {
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-image: url("https://media.istockphoto.com/photos/web-design-layout-sketch-drawing-software-media-www-and-graphic-picture-id827896866?k=20&m=827896866&s=612x612&w=0&h=fgD02b24wISAi1aVFzTx3capbJ_r7ElperMbRtmtLjk=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-past2 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  /* margin-left: 20px; */
+  background-image: url("https://image.shutterstock.com/image-photo/website-development-layout-sketch-drawing-260nw-628335110.jpg");
+  background-repeat: no-repeat;
+}
+.content-past3 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-image: url("https://cdn.dribbble.com/users/4317427/screenshots/14512301/media/94a790a8cb7ad5edfe69ddb7e1a0a066.png?compress=1&resize=400x300");
+}
+.content-past4 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-image: url("https://st4.depositphotos.com/2466369/40194/v/1600/depositphotos_401947726-stock-illustration-web-development-concept-flat-style.jpg");
+}
+.content-past5 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-image: url("https://media.istockphoto.com/photos/focusing-weather-icon-on-smart-phone-screen-picture-id1130294493?k=20&m=1130294493&s=612x612&w=0&h=Rg9IKxWSGh-jozMD1uTwEodq5XVrOdf4JphIuT4iqxo=");
+}
+.content-past6 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-image: url("https://www.thebalance.com/thmb/-toaF_9jvIGKE6j2AsxwtoeVQqI=/2121x1414/filters:fill(auto,1)/beststocktradingapps-767c084f5ccb44f7a974ff04d9f5264b.jpg");
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
